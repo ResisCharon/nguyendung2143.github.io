@@ -2,49 +2,50 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Create product list with CSS3</title>
+<title>List Students</title>
 <style type="text/css">
-.ProductDetails {display: none;}
-.Product img {
+.StudentDetails {display: none;}
+.Student img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #aaa;
 }
-.ProductName {font-weight: bold;}
-.ProductPrice {font-style: italic;}
-.ProductPrice:before {content: " - ";}
-.Product {
+.StudentName {font-weight: bold;}
+.StudentID {font-style: italic;}
+.StudentID:before {content: " - ";}
+.Student {
     text-align: center;
     width: 150px;
     margin: 10px 20px;
     float: left;
     cursor: pointer;
+    display: inline-block;
 }
-.Product:hover .ProductDetails {display: block;}
+.Student:hover .StudentDetails {display: block;}
 </style>
 </head>
 <body>
     <div>
-        <div class="Product">
-            <img src="https://www.southernliving.com/thmb/zJ1oRSW41ODX32ofxVCF5BnBF2A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-477129017-2000-2f13bf561b79478d9072d4fa34abfc42-37c0e303cd7c400492f58b42c3f77e4f.jpg" />
-            <div class="ProductDetails">
-                <span class="ProductName">Rose</span>
-                <span class="ProductPrice">1.5$</span>
+        <div class="Student">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg" />
+            <div class="StudentDetails">
+                <span class="StudentName">DAO DUC</span>
+                <span class="StudentID">00001</span>
             </div>
         </div>
-        <div class="Product">
-            <img src="https://flexdecor.vn/wp-content/uploads/2022/10/Hoa-lua-Tulip-trang-tri-phong-khach-HNT5584-11.jpg" />
-            <div class="ProductDetails">
-                <span class="ProductName">Tulip</span>
-                <span class="ProductPrice">2.8$</span>
+        <div class="Student">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg" />
+            <div class="StudentDetails">
+                <span class="StudentName">NGUYEN DUNG</span>
+                <span class="StudentID">00002</span>
             </div>
         </div>
-        <div class="Product">
-            <img src="https://www.allthatgrows.in/cdn/shop/products/Daisy_Double_Mixed_2946x.jpg?v=1509622766" />
-            <div class="ProductDetails">
-                <span class="ProductName">Daisy</span>
-                <span class="ProductPrice">1.8$</span>
+        <div class="Student">
+            <img src="https://cdn1.vectorstock.com/i/1000x1000/31/95/user-sign-icon-person-symbol-human-avatar-vector-12693195.jpg" />
+            <div class="StudentDetails">
+                <span class="StudentName">NAM KHANH</span>
+                <span class="StudentID">00003</span>
             </div>
         </div>
     </div>
