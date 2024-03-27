@@ -1,5 +1,40 @@
-nav {
-    position: fixed;
+#nav {
     display: inline-block;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+}
+#nav li a {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
     right: 0;
+    z-index: 1;
+}
+#nav > li > a {
+    color:#fff;
+    text-transform: uppercase;
+}
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
 }
