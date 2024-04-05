@@ -29,7 +29,7 @@
 }
 .search-container {
     position: fixed;
-    top: 5px; /* Đặt vị trí từ đỉnh cách 20px */
+    top: 5px; /* Đặt vị trí từ đỉnh cách 5px */
     right: 20px; /* Đặt vị trí từ phải cách 20px */
     z-index: 999;
 }
